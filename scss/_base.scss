@@ -10,3 +10,34 @@ $color-blanco: white;
     font-family: 'Noto Sans Display', sans-serif;
     font-family: 'Spline Sans Mono', monospace;
 }
+
+.titulo{
+    background-color: $color-azul;
+    color: $color-blanco;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.subtitulo{
+    background-color: $color-negro;
+    color: $color-blanco;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.back-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 60vh;
+}
+
+p{
+    text-align: justify;
+}
+
+.section-i{
+    padding: 1rem;
+}

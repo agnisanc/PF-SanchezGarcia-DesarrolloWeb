@@ -1,32 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-family: 'Spline Sans Mono', monospace;
-}
-
-header{
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    display: flex;
-    text-decoration: none;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    ul, ol{
-        list-style-type: none;
-        padding: 0;
-        margin-bottom: 0;
-        }
-        a{
-            color: white;
-            text-decoration: none;
-        }
-        .logo{
-            width: 50px;
-            height: 50px;
-        }
-
-}
+@import "./base";
+@import "./components/footer";
+@import "./components/header";
+@import "./pages/colaboraciones";
+@import "./pages/contacto";
+@import "./pages/cortometrajes";
+@import "./pages/index";
+@import "./pages/peliculas";

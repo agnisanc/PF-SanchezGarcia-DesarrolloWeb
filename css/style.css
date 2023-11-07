@@ -75,7 +75,7 @@ a {
     gap: 1rem;
   }
 }
-.footer-container {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,35 +83,36 @@ a {
   gap: 1rem;
   margin-top: 1rem;
 }
-.footer-container h4, .footer-container h5 {
-  color: white;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.footer-container .footer-section {
+.footer__section {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
-.footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-evenly;
-  align-items: top;
+.footer h4, .footer h5 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.contacto-section {
+@media (min-width: 580px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: top;
+  }
+}
+.contacto {
   display: flex;
   flex-direction: column;
 }
-.contacto-section .subtitulo-contacto {
+.contacto .subtitulo-contacto {
   background-color: black;
   color: white;
   font-size: 1rem;
 }
 
-.footer-container-contacto {
+.footercontacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,39 +120,39 @@ a {
   gap: 1rem;
   margin-top: 1rem;
 }
-.footer-container-contacto .footer-section {
+.footercontacto__section {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.footer-container-contacto h4, .footer-container-contacto h5 {
+.footercontacto h4, .footercontacto h5 {
   color: white;
   font-size: 1.5rem;
   text-align: center;
 }
-.footer-container-contacto a {
+.footercontacto a {
   color: white;
   text-decoration: none;
   text-align: center;
 }
 
 @media (min-width: 580px) {
-  .footer-container-contacto {
+  .footercontacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     align-items: top;
   }
-  .contacto-section {
+  .contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
   }
-  .contacto-usa {
+  .contacto__uk {
     display: flex;
     flex-direction: column;
   }
-  .contacto-uk {
+  .contacto__usa {
     display: flex;
     flex-direction: column;
   }

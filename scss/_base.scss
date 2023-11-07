@@ -11,17 +11,25 @@ $color-blanco: white;
     font-family: 'Spline Sans Mono', monospace;
 }
 
-.titulo{
+@mixin colorhf{
+    background-color: $color-negro;
+    color: $color-blanco;
+}
+
+@mixin color{
     background-color: $color-azul;
     color: $color-blanco;
+}
+
+.titulo{
+    @include color;
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
 .subtitulo{
-    background-color: $color-negro;
-    color: $color-blanco;
+    @include color;
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;

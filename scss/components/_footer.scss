@@ -1,31 +1,22 @@
-.footer{
+.footer__container{
+    @include colorhf;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: $color-negro;
     gap: 1rem;
     margin-top: 1rem;
-
     &__section{
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     h4, h5{
-        color: $color-blanco;
         font-size: 1.5rem;
         text-align: center;
     }
 }
 
-@media (min-width: 580px) {
-    .footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-evenly;
-        align-items: top;
-    }
-}
+
 
 
 

@@ -1,6 +1,5 @@
 header{
-    background-color: $color-negro;
-    color: $color-blanco;
+    @include colorhf;
     padding: 1rem;
     display: flex;
     text-decoration: none;

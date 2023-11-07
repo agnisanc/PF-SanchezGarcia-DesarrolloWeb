@@ -1,4 +1,4 @@
-.footer__container{
+.footer{
     @include colorhf;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,14 @@
     }
 }
 
-
+@media (min-width: 580px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: top;
+    }
+}
 
 
 

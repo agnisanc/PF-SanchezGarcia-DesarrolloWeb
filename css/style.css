@@ -12,6 +12,7 @@
   font-size: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  background: linear-gradient(to right, rgb(24, 24, 106) 0% 25%, white 75% 100%);
 }
 
 .subtitulo {
@@ -20,6 +21,7 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background: linear-gradient(to right, black 0% 40%, white 60% 100%);
 }
 
 .back-image {
@@ -27,6 +29,8 @@
   width: 100%;
   object-fit: cover;
   max-height: 60vh;
+  margin-bottom: 1rem;
+  filter: drop-shadow(4px 4px 4px);
 }
 
 p {

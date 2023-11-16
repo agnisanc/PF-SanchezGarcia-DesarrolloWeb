@@ -173,4 +173,139 @@ a {
   max-width: 70svw;
 }
 
+.kyno {
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Spline Sans Mono", monospace;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 7vw;
+}
+
+.cover {
+  object-fit: cover;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.cover-container {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.presentation {
+  position: relative;
+}
+.presentation__text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.presentation .name-1 {
+  color: white;
+  font-size: 1.5rem;
+}
+.presentation .name-2, .presentation .name-3 {
+  color: white;
+  font-size: 1rem;
+}
+.presentation .sinopsis {
+  color: white;
+  font-size: 100%;
+  text-align: justify;
+}
+
+.presentation-text {
+  position: absolute;
+  bottom: 10%;
+  margin: 1rem;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+.presentation2 ul, .presentation2 li {
+  margin: 0.5rem;
+  font-family: "Noto Sans Display", sans-serif;
+}
+.presentation2 h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4.5vw;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-trailer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.container-trailer .trailer {
+  height: 100%;
+  width: 100%;
+  max-height: 100vh;
+  max-width: 70svw;
+}
+
+.reparto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.reparto .card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 9.5rem;
+  background: rgb(241, 240, 240);
+  margin: 1rem;
+}
+.reparto .card__retrato {
+  height: 200px;
+  width: 150px;
+  filter: grayscale(100%);
+}
+.reparto .card__nombre {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+.reparto .card__rol {
+  font-size: 0.7rem;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0.5rem;
+}
+
+@media (min-width: 930px) {
+  .reparto {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 480px) {
+  .presentation2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

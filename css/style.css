@@ -2,38 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Spline Sans Mono", monospace;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .titulo {
-  background-color: rgb(24, 24, 106);
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: calc(1.5rem + 2vw);
+  font-style: italic;
+  font-weight: bold;
   margin-top: 1rem;
-  background: linear-gradient(to right, rgb(24, 24, 106) 0% 25%, white 75% 100%);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .subtitulo {
-  background-color: rgb(24, 24, 106);
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background: linear-gradient(to right, black 0% 40%, white 60% 100%);
+  font-size: calc(1rem + 1.5vw);
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .back-image {
   height: 50%;
-  width: 100%;
   object-fit: cover;
+  width: 100%;
   margin-bottom: 1rem;
   filter: drop-shadow(4px 4px 4px);
 }
 
 p {
   text-align: justify;
+  font-size: calc(0.5rem + 0.7vw);
 }
 
 .section-i {
@@ -111,17 +109,21 @@ a {
   display: flex;
   flex-direction: column;
 }
+.contacto p {
+  text-align: center;
+}
 .contacto .subtitulo-contacto {
-  background-color: black;
-  color: white;
-  font-size: 1rem;
+  color: black;
+  font-size: calc(1rem + 1vw);
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .footercontacto {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  background-color: black;
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -152,14 +154,20 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
+    text-align: center;
   }
   .contacto__uk {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   .contacto__usa {
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+  .contacto p {
+    text-align: center;
   }
 }
 .video-container {
@@ -172,12 +180,6 @@ a {
   width: 100%;
   max-height: 90vh;
   max-width: 70svw;
-}
-
-.kyno {
-  font-family: "Lexend Deca", sans-serif;
-  font-family: "Noto Sans Display", sans-serif;
-  font-family: "Spline Sans Mono", monospace;
 }
 
 .title {
@@ -228,12 +230,6 @@ a {
   position: absolute;
   bottom: 10%;
   margin: 1rem;
-}
-
-.card-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .presentation2 {
@@ -324,6 +320,12 @@ a {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reparto {

@@ -120,6 +120,8 @@ a {
 }
 
 .footercontacto {
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -366,6 +368,9 @@ a {
     justify-content: center;
     margin: 1rem;
     font-size: calc(0.4rem + 0.5vw);
+  }
+  .text .name-3 {
+    font-size: calc(0.4rem + 0.4vw);
   }
 }
 @media (min-width: 930px) {

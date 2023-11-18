@@ -395,5 +395,14 @@ a {
     width: 80vw;
   }
 }
+.title {
+  font-size: 6vw;
+}
+
+.killing-title {
+  color: white;
+  font-size: calc(0.4rem + 1vw);
+  font-family: "Lexend Deca", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */

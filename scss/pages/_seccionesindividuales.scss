@@ -35,7 +35,7 @@
     }
     .name-2, .name-3{
         color: $color-blanco;
-        font-size: 1rem;
+        font-size: calc(0.5rem + 0.7vw);
         font-family: 'Lexend Deca', sans-serif;
     }
     .sinopsis{

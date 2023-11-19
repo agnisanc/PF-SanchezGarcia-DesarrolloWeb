@@ -1,4 +1,4 @@
-$color-azul: rgb(24, 24, 106);
+
 $color-negro: black;
 $color-blanco: white;
 
@@ -19,16 +19,21 @@ $color-blanco: white;
     font-size: calc(1rem + 1.5vw);    
     margin-bottom: 2rem;
     text-align: center;
+    color: $color-negro;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo{
     font-family: 'Cormorant Garamond', serif;
-    font-size: calc(1.5rem + 2vw);
+    font-size: calc(1.7rem + 2vw);
     font-style: italic;
     font-weight: bold;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    text-align: center;
+    color: $color-negro;
+    display: flex;
+    justify-content: center
 }
 
 .subtitulo{
@@ -40,7 +45,6 @@ $color-blanco: white;
     object-fit: cover;
     width: 100%;
     margin-bottom: 1rem;
-    filter: drop-shadow(4px 4px 4px);
 }
 
 p{

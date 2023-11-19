@@ -1,0 +1,28 @@
+.presentationnecktie{
+    position: relative;
+    &__text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        position: absolute;
+        bottom: 5%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .name-1{
+        color: $color-blanco;
+        font-size: 1.5rem;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .name-2, .name-3{
+        color: $color-blanco;
+        font-size: calc(0.5rem + 0.7vw);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .sinopsis{
+        color: $color-blanco;
+        font-size: 100%;
+        text-align: justify;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}

@@ -7,18 +7,23 @@
 
 .titulo {
   font-family: "Cormorant Garamond", serif;
-  font-size: calc(1.5rem + 2vw);
+  font-size: calc(1.7rem + 2vw);
   font-style: italic;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .subtitulo {
   font-size: calc(1rem + 1.5vw);
   margin-bottom: 2rem;
   text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .back-image {
@@ -26,7 +31,6 @@
   object-fit: cover;
   width: 100%;
   margin-bottom: 1rem;
-  filter: drop-shadow(4px 4px 4px);
 }
 
 p {
@@ -402,6 +406,35 @@ a {
 .killing-title {
   color: white;
   font-size: calc(0.4rem + 1vw);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.presentationnecktie {
+  position: relative;
+}
+.presentationnecktie__text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.presentationnecktie .name-1 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+.presentationnecktie .name-2, .presentationnecktie .name-3 {
+  color: white;
+  font-size: calc(0.5rem + 0.7vw);
+  font-family: "Lexend Deca", sans-serif;
+}
+.presentationnecktie .sinopsis {
+  color: white;
+  font-size: 100%;
+  text-align: justify;
   font-family: "Lexend Deca", sans-serif;
 }
 
